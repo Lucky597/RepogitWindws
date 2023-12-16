@@ -1,0 +1,40 @@
+/*Inicio estilos por buenas practicas*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+/*Fin estilos por buenas practicas*/
+
+.block-element {
+    background-color: green;
+    margin: 10px;
+    padding: 20px;
+    width: 400px;
+}
+
+.line {
+    background-color: rgb(17, 0, 128);
+    margin: 10px;
+    padding: 20px;
+    width: 400px;
+    display: inline;
+}
+
+.nav {
+    background-color: peachpuff;
+    padding: 20px;
+    list-style: none;
+    text-align: center; 
+}
+
+.nav li {
+    /* display: inline-block; */
+    font-size: 20px;
+    margin: 10px 0;
+    padding-right: 20px;
+}

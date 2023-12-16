@@ -1,0 +1,33 @@
+/*Inicio estilos por buenas practicas*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+/*Fin estilos por buenas practicas*/
+
+main {
+    /*para que el contenedor main 
+    ocupe el 100% del viewport en 
+    cualquier pantalla*/
+    width: 100vw;
+    height: 100vh;
+    background-color: green;
+}
+
+section{
+    width: 80%;
+    max-width: 500px;
+    min-width: 320;
+    /*teniendo como base el width preferiblemente 
+    en porcentaje, se le puede colocar un minimo 
+    y maximo en pixeles*/
+    height: 500px;
+    margin: 0 auto;/*arriba y abajo sin margin,
+     pero centrado de los lados*/
+    background-color: red;
+}

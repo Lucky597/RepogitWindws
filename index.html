@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav></nav>
+    </header>
+    <main>
+      <section>
+        <figure>
+          <img src="./img/Luna.jpg" alt="Es la imagen de una luna" />
+          <!-- scr es de donde viene el recurso, alt es una descripcion que le van a dar a la imagen y temas de accesibilidad-->
+          <figcaption> Es la luna llena</figcaption> <!-- Da una descripcion en figure -->
+        </figure><!-- Hay malas practicas en las que usan un div en lugar de figure y un p parrafo en lugar de figcaption -->
+        <!-- Figure es un contenedor de etiqueta img-->
+      </section>
+
+      <section>
+        <video src="./video/a.mkv#t=30,40" controls preload="auto"></video>
+
+        <video controls preload="auto">
+          <source src="./video/B.mp4#t=30,40">
+          <source src="./video/B.wmv#t=30,40">
+          <!-- Con la etiqueta source dentro de la eiqueta video se le deja decidir al navegador por el formato que el reconozca o el primero que reconozca-->
+        </video>
+        <!-- Con el atributo controls aparecen los controles de video, preload="auto" es apra que el navegador lo renderice desde que se carga la pagina y no demore osea va descargando el video desde antes de darle play para que no tarde cuando lo inicien a reproducir-->
+        <!-- Se coloca justo despues del archivo #t= 10,60 Inicia en el segundo 10 y termina en el segundo 60 del video es como poner un rango de reproducion sin cortar el video si el ususrio quiere puede ver el antes y despues de ese rango-->
+      </section>
+
+      <section>
+        <article><!-- Pueden haber varios articulos en una seccion--></article>
+      </section>
+      <ul>
+        <li>Frutas</li>
+        <ol>
+          <li>
+            <a
+              href="https://www.directoalpaladar.com/postres/51-recetas-faciles-manzana-para-disfrutar-desayunos-meriendas-deliciosos"
+              >Manzana</a
+            >
+          </li>
+          <li><a href="#">Platano</a></li>
+        </ol>
+
+        <li>Carnes</li>
+        <ol>
+          <li><a href="#">Pollo</a></li>
+          <li><a href="#">Carne Molida</a></li>
+        </ol>
+
+        <li>Verduras</li>
+        <ol>
+          <li><a href="#">Limón</a></li>
+          <li><a href="#">Zanahoria</a></li>
+        </ol>
+
+        <!-- Elemento de una lista-->
+      </ul>
+      <!-- Ul y Ol se usan para crear listas ol es lista ordenada ul lista desordenada le pone un punto viñeta-->
+      <ol>
+        Hecho por alvaro magno
+      </ol>
+    </main>
+    <footer></footer>
+    <!-- Esas fueron unas d elas etiquetas contenedoras mas comunes permiten hacer la maquetacion o layout de nuestro proyecto se le llama a todo esto semantica de html que es una buena practica HTML 5 SEMANTICO-->
+
+    <div></div>
+    <!-- Es una etiqueta comodin la cual usan en lugar de las etiquetas anteriores pero es mala practica-->
+    <!-- ETIQUETAS DE TEXTO ACONTINUACION-->
+    <p>Soy un texto</p>
+    <!-- Parrafo-->
+    <h1>Soy un titulo</h1>
+    <!-- Encabezado, texto de forma mas grande-->
+    <h2></h2>
+    <!-- Otro encabezado hay hasta el h6 y entre mas grande el numero mas queño el texto-->
+
+    <a href="#">texo con vinculo</a>
+    <!-- EQTIQUETA DE ANCLA, lA QUE PERMITE CREAR HIPERVINCULOS, el # evita que se refresque la pagina-->
+
+    <h1>0000000000</h1>
+    <p>000000000</p>
+  </body>
+</html>

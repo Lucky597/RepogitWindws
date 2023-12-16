@@ -1,0 +1,9 @@
+html {
+    font-size: 75%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: inherit; /* Lo hereda de la etiqueta padre mas cercana que tenga definidos estos atributos  */
+    /* font-family: inherit; */
+}

@@ -1,0 +1,22 @@
+h2+p {
+    /*Aplicale a las etiquetas p que este cerca por debajo al mismi nivel 
+    de h2 si hay una eiqueta intermedio no funciona*/
+    color: brown;
+}
+
+h4~p {
+    /*Aplicale a las etiquetas p que este cerca por debajo al mismi nivel de 
+    h4 aunque halla una etiqueta intermedio*/
+    color: blue;
+}
+
+div>p {
+    /*El padre (Div) que sea mayor que una etiqueta p, colocale esto a 
+    las etiquetas p que sean hijas directas de div*/
+    color: chartreuse;
+}
+alvaro p { /*es lo mismo que .class p*/
+    /*El padre (Div) que sea mayor que una etiqueta p, colocale esto a 
+    las etiquetas p que sean hijas directas o indirectas de div*/
+    color: rgb(229, 255, 0);
+}

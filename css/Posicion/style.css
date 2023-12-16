@@ -1,0 +1,30 @@
+/*Inicio estilos por buenas practicas*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/*Fin estilos por buenas practicas*/
+
+.parent {
+    border: 2px black dotted;
+    display: inline-block;
+}
+
+.box {
+    display: inline-block;
+    /*Hace que si esta en columna se vuelva
+     fila o all reves, forma bloques*/
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+#two {
+    background-color: green;
+}

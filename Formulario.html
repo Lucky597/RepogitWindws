@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario Agradable</title>
+  </head>
+  <body>
+    <!-- Form le dice al navegador que lo que va ahi es un formulario-->
+    <form action="">
+      <label for="nombre">
+        <span>Cual es tu nombre?</span
+        ><!-- El span es usado para que el usuario conozca la funcin del imput, al dar click en este texto e scomo si lo hicieros en el input y eso es por que for y id mismo nombre-->
+        <input type="text" id="nombre" placeholder="escriba su nombre mano"/>
+        <!-- placeholder pone un texto dentro input para indicar lo que va ahi-->
+        <!-- for de label y id de input deben ser nombrados igual para estar conectados-->
+      </label>
+
+      <label for="Inicio-Estudiar-HTML">
+        <span>CUANDO EMPEZO A ESTUDIAR HTML?</span
+        ><!-- *-->
+        <input type="date" id="Inicio-Estudiar-HTML" />
+        <!-- *-->
+      </label>
+
+      <label for="horario">
+        <span>Cual es su horario de estudio?</span
+        ><!-- *-->
+        <input type="time" id="horario" />
+        <!-- *-->
+      </label>
+      
+    </form>
+    <!-- action se usa con Js para enviar informacion, va la url ó empoint para la bd-->
+  </body>
+</html>

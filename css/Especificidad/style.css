@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: serif;
+    color: brown;
+}
+
+.pahe-header .title{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(196, 213, 11);
+}
+
+.title{
+    font-size: 18px;
+    color: chartreuse;
+}
+.nav{
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.nav li{
+    display: inline-block;/*Hace que se coviertan en bloques y pasan a estar en columna*/
+}
+
+.nav a{
+    color: rgb(129, 18, 233);
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none; /*Quitar linea de subrayado*/
+}
+.nav .blog{ /*Un ID Y UNA CLASE SON MAS FUERTES QUE UN ID SOLO (main-nav)*/
+    background-color:black;
+    color: white;
+}

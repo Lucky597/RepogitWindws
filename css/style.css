@@ -1,0 +1,41 @@
+P {
+    color: aqua;
+    font-size: arial;
+}
+
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    /*Eliminar viñeta */
+    padding-left: 0;
+    /*Espacio interno en un contenedor*/
+    background-color: rgb(114, 114, 189);
+}
+
+.main-nav_item {
+    display: inline-block;
+}
+
+.main-nav_item a {
+    /*para todas las etiquetas a dentro de estas clase .main-nav_item*/
+    color: azure;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.main-nav_item a:hover {
+    /*:hover es que el mmouse este arriba del elemento pseudo clase*/
+    color: rgb(28, 138, 65);
+
+}
+.main-nav_item a:active{
+    /*:active es que el dar click del elemento pseudo clase*/
+    color: rgb(13, 10, 10);
+}
+
+.main-nav_item a::after{
+    /*::after despues del elemento <a> coloca | es un (pseudo elemeto)*/
+    content: " | ";
+    color: rgb(13, 10, 10);
+}

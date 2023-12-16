@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <picture>
+        <!-- Estos son media queris -->
+        <source media="(min-width:830px)" srcset="./img/2.jpg" />
+        <!-- la etiqueta con el viewport mas grande debe ir arriba-->
+        <source media="(min-width:800px)" srcset="./img/1.jpg" />        
+        <img src="./img/small.jpg" alt="Imagen de ejemplo" />
+        <!-- la etiqueta img es la que rederiza la imagen no source -->
+      </picture>
+    </main>
+  </body>
+</html>

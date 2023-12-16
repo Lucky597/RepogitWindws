@@ -1,0 +1,102 @@
+:root {
+    /*hace referencia al html*/
+    /* --primary-color: #003476;
+    --secundary-color: #b4d2f7;
+    --header-size: 4rem;
+    --font: 1.8rem; */
+}
+
+/*Inicio estilos por buenas practicas*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/*Fin estilos por buenas practicas*/
+
+.container {
+    display: flex;
+    /*lo debe llevar un contendor principal para
+     empezar notros a manipular el contenido*/
+    flex-wrap: wrap;
+    /*para que los div que estan adentro pueda 
+    reposicionarse en caso de que su tamaño les 
+    permita a medida que cresca el viewport*/
+}
+
+.c1,
+.c2,
+.c3,
+.c4,
+.c5 {
+    width: 100%;
+    min-width: 150px;
+    height: 150px;
+}
+
+.c1 {
+    background-color: #003476;
+}
+
+.c2 {
+    background-color: #0062D2;
+}
+
+.c3 {
+    background-color: #B4D2F7;
+}
+
+.c4 {
+    background-color: #D5DFEF;
+    height: auto;
+}
+
+.c5 {
+    background-color: #DFE1E5;
+}
+
+@media (min-width: 600px) {
+    .c1 {
+        width: 25%;
+    }
+
+    .c4 {
+        width: 75%;
+    }
+
+    .c5 {
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 800px) {
+    .container {
+        width: 800px;
+        /* margin-left: auto;
+        margin-right: auto; */
+        margin: 0 auto;
+        /*Arriba y abajo no generes margin
+         y a la izquierda y derecha coloca
+          auto, es igual a usar margin auto
+           left y right*/
+    }
+    .c1 {
+        width: 50%;
+        order: 1;
+    }
+
+    .c4 {
+        width: 100%;        
+    }
+
+    .c5 {
+        width: 50%;
+        order: 2;
+    }
+}
